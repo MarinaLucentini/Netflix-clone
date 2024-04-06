@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/dist/css/style.min.css" />
+    <title>Profile page</title>
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="Netflix-assets/assets/netflix_logo.png"
+            alt="Logo"
+            width="80"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <h1 class="text-white">Edit Profile</h1>
+            <hr class="border border-secondary" />
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2">
+            <div class="container position-relative">
+              <img
+                src="Netflix-assets/assets/avatar.png"
+                alt=""
+                class="img-fluid"
+              />
+              <div class="position-absolute bottom-0 end-0">
+                <button class="btn btn-dark rounded-5">
+                  <i class="bi bi-pencil-fill text-white"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-8">
+                <span
+                  class="btn placeholder col-10 bg-secondary text-white mx-3"
+                  >Steve Student</span
+                >
+              </div>
+              <div class="col-4"></div>
+            </div>
+
+            <div class="row flex-column my-3">
+              <div class="col">
+                <p class="text-white">Language:</p>
+              </div>
+              <div class="col">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        English
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Italian</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Portuguese</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Spagnolo</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-8"></div>
+                </div>
+              </div>
+            </div>
+            <hr class="border border-secondary" />
+            <div class="row flex-column my-3">
+              <div class="col">
+                <p class="text-white">Maturity settings:</p>
+              </div>
+              <div class="col">
+                <div class="row">
+                  <div class="col-6">
+                    <span
+                      class="btn placeholder col-6 bg-secondary text-white mx-3"
+                      >ALL MATURITY LANGUAGE</span
+                    >
+                  </div>
+                  <div class="col-6"></div>
+                </div>
+              </div>
+              <div class="col">
+                <p class="text-white">
+                  Shoe titles of all maturity rating for this profile
+                </p>
+              </div>
+              <div class="col">
+                <div class="row">
+                  <div class="col-2">
+                    <button class="btn btn-outline-light">EDIT</button>
+                  </div>
+                  <div class="col-10"></div>
+                </div>
+              </div>
+            </div>
+            <hr class="border border-secondary" />
+            <div class="row flex-column my-3">
+              <div class="col">
+                <p class="text-secondary">Autoplay controls</p>
+              </div>
+              <div class="col">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="defaultCheck1"
+                  />
+                  <label
+                    class="form-check-label text-secondary"
+                    for="defaultCheck1"
+                  >
+                    Autoplay next episode in series on all devices
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="defaultCheck1"
+                  />
+                  <label
+                    class="form-check-label text-secondary"
+                    for="defaultCheck1"
+                  >
+                    Autoplay prewies while browsing on all devices
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <hr class="border border-secondary" />
+            <div class="row">
+              <div class="col-2">
+                <button class="btn btn-outline-secondary">SAVE</button>
+              </div>
+              <div class="col-2">
+                <button class="btn btn-outline-secondary">CANCEL</button>
+              </div>
+              <div class="col-8">
+                <button class="btn btn-outline-secondary">
+                  DELETE PROFILE
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
