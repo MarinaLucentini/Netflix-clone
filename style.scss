@@ -49,18 +49,44 @@ color: $gray-100;
  .btn{
     width: 100%;
  }
-.changeCat:hover{
+.changeCat:hover,
+.card:hover{
 box-shadow: createShadow($gray-600, 10);
  }
+
 @media screen and (min-width:768px){
+    .fs-md-1{
+        font-size: $h1-font-size !important;
+    }
+    .fs-md-2{
+        font-size: $h2-font-size !important;
+    }
+    .fs-md-3{
+        font-size: $h3-font-size !important;
+    }
     .fs-md-4{
         font-size: $h4-font-size !important;
+    }
+    .fs-md-5{
+        font-size: $h5-font-size !important;
     }
     
 }
 @media screen and (min-width:1200px){
     .fs-xl-1{
         font-size: $h1-font-size !important;
+    }
+    .fs-xl-2{
+        font-size: $h2-font-size !important;
+    }
+    .fs-xl-3{
+        font-size: $h3-font-size !important;
+    }
+    .fs-xl-4{
+        font-size: $h4-font-size !important;
+    }
+    .fs-xl-5{
+        font-size: $h5-font-size !important;
     }
     
 }
