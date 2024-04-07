@@ -49,3 +49,6 @@ color: $gray-100;
  .btn{
     width: 100%;
  }
+.changeCat:hover{
+box-shadow: createShadow($gray-600, 10);
+ }

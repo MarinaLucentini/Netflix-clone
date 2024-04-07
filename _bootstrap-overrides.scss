@@ -8,4 +8,11 @@
 
 // Then add additional custom code here lo so non l'avevi consigliato, ma così mi confondo meno, scusa stefano
 
-$secondary:     $gray-700
+$secondary:     $gray-700;
+@function createShadow ($colorshadow,$lenghtshadow){
+    $val:null;
+    @for $i from 1 to $lenghtshadow{
+        $val:$val, #{$i*2}px #{$i*3}px #{$i*8}px $colorshadow;
+    }
+    @return $val
+}
