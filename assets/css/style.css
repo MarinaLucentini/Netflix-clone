@@ -10820,4 +10820,15 @@ h1, .h1 {
 
 .changeCat:hover {
   box-shadow: 2px 3px 8px #6c757d, 4px 6px 16px #6c757d, 6px 9px 24px #6c757d, 8px 12px 32px #6c757d, 10px 15px 40px #6c757d, 12px 18px 48px #6c757d, 14px 21px 56px #6c757d, 16px 24px 64px #6c757d, 18px 27px 72px #6c757d;
+}
+
+@media screen and (min-width: 768px) {
+  .fs-md-4 {
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .fs-xl-1 {
+    font-size: 2.5rem !important;
+  }
 }/*# sourceMappingURL=style.css.map */
