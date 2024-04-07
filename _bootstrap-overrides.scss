@@ -15,4 +15,10 @@ $secondary:     $gray-700;
         $val:$val, #{$i*2}px #{$i*3}px #{$i*8}px $colorshadow;
     }
     @return $val
-}
+};
+$position-values: (
+  0: 0,
+  10:10%,
+  50: 50%,
+  100: 100%
+);

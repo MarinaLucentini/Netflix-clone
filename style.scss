@@ -53,6 +53,12 @@ color: $gray-100;
 .card:hover{
 box-shadow: createShadow($gray-600, 10);
  }
+ .bottom-5 {
+    bottom: 5% !important;
+  }
+  .start-20 {
+    left: 20% !important;
+  }
 
 @media screen and (min-width:768px){
     .fs-md-1{
