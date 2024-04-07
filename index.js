@@ -169,4 +169,4 @@ const changeImgCarosel = () => {
   });
 };
 changeImgCarosel();
-//  volevo cambiare le immagini a seconda della categoria, ma non mi riesce. Non so perché non mi esce la proprietà src
+//  volevo cambiare le immagini a seconda della categoria, ma non mi riesce. Le cambia, ma mi si rompe il carosello
